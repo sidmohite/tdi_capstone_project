@@ -8,18 +8,33 @@ The goal of the project is to develop a forecasting tool, using statistical tech
 
 ## Datasets
 ### Registrations
-![](https://github.com/sidmohite/tdi_capstone_project/blob/main/images/data_reg_screenshot.png)
+* `VIN`
+* `Vehicle Names`
+* `ZIP Codes`
+* `Registration Type`
+* `Start and Expiration Date`
 
-### Charging Usage
-![](https://github.com/sidmohite/tdi_capstone_project/blob/main/images/data_charging_screenshot.png)
+### Charging Station Usage
+* `Start Dates`
+* `ZIP Codes`
+* `Energy Usage`
+* `Active Stations`
+* `Active Ports`
 
 ### Demographics
-![](https://github.com/sidmohite/tdi_capstone_project/blob/main/images/data_demo_screenshot.png)
+* `ZIP Codes`
+* `Household income`
+* `House Ownership`
+* `Number of people with given Education Level`
+* `Time to commute to work`
 
 ### Rebate Information
-![](https://github.com/sidmohite/tdi_capstone_project/blob/main/images/data_rebate_screenshot.png)
+* `ZIP Codes`
+* `Annual Greenhouse Gas Emissions`
+* `Annual Petroleum Reduction`
+* `Rebate`
 
-## Project Goals
+# Project Goals
 * Find the most important factors affecting the EV market
 * Train a ML model for each regional database based on these factors and assess performance
 * Deploy as an end to end Python package
